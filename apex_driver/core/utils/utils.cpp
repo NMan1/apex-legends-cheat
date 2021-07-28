@@ -12,7 +12,7 @@ namespace utils {
 		return uni;
 	}
 
-	// LIST_ENTRY old{};
+	LIST_ENTRY old{};
 
 	// pair this with function relink_threads when leaving hook or else bsod. This is an alternatvie to the funciton below, but I diiodnt do this one becaue its suspisocus with a process wiht no
 	// theeads (not possible) and this was just a lazy implemneation
